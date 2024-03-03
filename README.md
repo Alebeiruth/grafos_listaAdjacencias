@@ -1,6 +1,4 @@
-# Estudos e Pesquisa de todos métodos basicos de Python separados por categoria
-
-RESOLUÇÃO DE PROBLEMAS COM GRAFOS
+# RESOLUÇÃO DE PROBLEMAS COM GRAFOS
 
 ## Getting Started
 
