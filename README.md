@@ -18,10 +18,14 @@ Pré requisto, saber a linguagem de programação Python e Grafos
 
 ### Explanation
 
-u == vertice inicial 
+u == vertice inicial
+
 v == vertice final
+
 peso == valor associado a aresta que conectqa u ao v
+
 self = permite que os metodos aceese e modifique os atributos de Grafo
+
 1. **Importação e Classe:**
    - Importamos `defaultdict` da biblioteca `collections`. Isso nos ajuda a criar dicionários que têm um valor padrão se a chave ainda não existir.
    - Definimos uma classe chamada `Grafo`.
