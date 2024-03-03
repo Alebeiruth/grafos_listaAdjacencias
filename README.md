@@ -66,7 +66,6 @@ self = permite que os metodos aceese e modifique os atributos de Grafo
 13. **Uso da Classe:**
     - Criamos uma instância da classe `Grafo`, adicionamos vértices e arestas usando os métodos definidos, e então chamamos `imprime_lista_adjacencias` para ver a lista de adjacências do grafo.
 
-O código segue a lógica descrita acima para manipular grafos, permitindo adicionar e remover vértices e arestas, além de consultar informações sobre o grafo, como a existência de arestas e os graus dos vértices.
 
 ## Usage
 
