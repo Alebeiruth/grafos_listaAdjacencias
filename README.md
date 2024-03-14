@@ -22,7 +22,7 @@ ordem == n vertices
 
 tamanho == n arestas
 
-adjacentList = dictDefault
+adjacentList == dictDefault
 
 u == vertice inicial
 
