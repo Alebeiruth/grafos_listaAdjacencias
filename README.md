@@ -18,6 +18,12 @@ Pré requisto, saber a linguagem de programação Python e Grafos
 
 ### Explanation
 
+ordem == n vertices
+
+tamanho == n arestas
+
+adjacentList = dictDefault
+
 u == vertice inicial
 
 v == vertice final
