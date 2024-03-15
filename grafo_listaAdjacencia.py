@@ -48,7 +48,7 @@ def remove_vertice(self, u_vertice_inicial):
       removidaAresta = len(self.adjacenteLista[u_vertice_inicial])
       del self.adjacenteLista[u_vertice_inicial]
 
-      for v_vertice_final in list(self.adjacenteLista):
+      for v_vertice_final in list(self.adjacenteLista):##itera sobre o restante dos vertices
         removidaAresta += sum(1 for destino, _ in self.adjacenteLista[v_vertice_final] if destino == u_vertice_inicial)
         self.adjacenteLista[v_vertice_final] = [(destino, peso) for destino, peso in self.adjacenteLista[v_vertice_final] if destino != u_vertice_inicial]
       
@@ -103,7 +103,7 @@ def remove_vertice(self, u_vertice_inicial):
       for destino, peso in self.adjacenteLista[vertice]:
         impressao += f"('{destino}', {peso}) ->"
       impressaoTotal += impressao.strip(", ") + "\n"
-      print(impressao)
+    print(impressaoTotal)
         
 g = Grafo(4)
 
