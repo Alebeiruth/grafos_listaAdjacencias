@@ -1,17 +1,5 @@
 from collections import defaultdict
 
-"""Alexandre, Diferentemente da matriz de adjacências, na lista de adjacências
-não é preciso passar a quantidade de vértices para a instanciação do grafo.
-Sugiro que remova do construtor da classe o parâmetro "numeroVertices".
-Assim, é possível criar um grafo vazio G=Grafo() e ir adicionando vértices
-e arestas de maneira incremental e sem a limitação da quantidade de
-vértices inicial. No seu código atual, ao fazer G=Grafo(5) e não adicionar
-nenhum vértice, o grafo terá ordem 5, o que está incorreto já que ele não
-possui nenhum vértice. Também sugiro que você reveja o seu
-método imprime_lista_adjacencias, pois a sua impressão está replicando a lista.
-No exemplo apresentado no vídeo, somente as 3 últimas linhas deveriam ter sido
-apresentadas."""
-
 # u = vertice inicial/origem
 # v = vertice final/destino
 
